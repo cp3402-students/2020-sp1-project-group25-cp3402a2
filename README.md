@@ -1,3 +1,2 @@
 # CP3402
-Starts<br>
-Kyle is testing...FINAL TEST<br>
+This is group 25's github for assignment 2. <br>
