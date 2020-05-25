@@ -68,7 +68,6 @@ html {
  */
 body {
 	margin: 0;
-	background-color: green;
 }
 
 /**
@@ -76,6 +75,7 @@ body {
  */
 main {
 	display: block;
+	background-color: green;
 }
 
 /**
