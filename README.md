@@ -25,7 +25,7 @@ This is group 25's github for assignment 2. <br>
 7) git status <br>
 8) git push <br>
 <br>
-## Creating/Joining our live with SSH <br>
+<h2> Creating/Joining our live with SSH </h2><br>
 1) ssh-keygen <br>
 2) enter a password <br>
 3) open git bash <br>
