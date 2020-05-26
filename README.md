@@ -1,7 +1,7 @@
 # CP3402
 This is group 25's github for assignment 2. <br>
 <br>
-# Setting up local enviroment
+# Setting up local enviroment <br>
 1) install git <br>
 2) Install VirtualBox & Vagrant <br>
 3) Open CMD with administator <br>
@@ -15,7 +15,7 @@ This is group 25's github for assignment 2. <br>
 11) testfile.vm/wp-admin (username and pass: admin) <br>
 12) vagrant halt <br>
 <br>
-# How to commit
+# How to commit <br>
 1) cd "save location" <br> 
 2) git clone "name" <br>
 3) cd "name location" <br>
@@ -25,7 +25,7 @@ This is group 25's github for assignment 2. <br>
 7) git status <br>
 8) git push <br>
 <br>
-# Creating/Joining our live with SSH 
+# Creating/Joining our live with SSH <br>
 1) ssh-keygen <br>
 2) enter a password <br>
 3) open git bash <br>
