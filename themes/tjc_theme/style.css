@@ -607,17 +607,22 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: #4169e1;
+	color: #F4CC2A;
+	padding: 14px 16px;
 }
 
-a:visited {
-	color: #800080;
-}
+/*a:visited {*/
+/*	color: white;*/
+/*}*/
 
 a:hover,
 a:focus,
 a:active {
-	color: #191970;
+	color: white;
+}
+
+a:menu, a:active {
+	color: white;
 }
 
 a:focus {
@@ -636,16 +641,17 @@ a:active {
 	display: block;
 	background-color: #161b16;
 	float: right;
-=======
-	width: 100%;
-	background-color: #161b16;
+	color: white;
+	padding-left: 2000px;
+	padding-right: 20px;
 >>>>>>> e71167c0866f934d3b31ce748bcfae6a980a567b
 }
 .main-navigation ul {
 	display: none;
 	list-style: none;
 	margin: 0;
-	padding-left: 0;
+	padding-right: 20px;
+	padding-left: 20px;
 }
 
 .main-navigation ul ul {
@@ -672,9 +678,12 @@ a:active {
 	width: 200px;
 }
 
-.main-navigation ul li:hover > ul,
+.main-navigation ul li:hover > ul {
+	background: gold;
+}
 .main-navigation ul li.focus > ul {
 	left: auto;
+
 }
 
 .main-navigation li {
