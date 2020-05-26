@@ -635,6 +635,7 @@ a:active {
 .main-navigation {
 	display: block;
 	background-color: #161b16;
+	float: right;
 =======
 	width: 100%;
 	background-color: #161b16;
