@@ -75,7 +75,11 @@ body {
  */
 main {
 	display: block;
-	background-color: blue;
+	background-color: #2e2d2d;
+	color: #fafaf2;
+	font-family: 'Quicksand', sans-serif;
+	padding-left:450px;
+	padding-right: 450px;
 }
 
 /**
@@ -640,6 +644,10 @@ a:active {
 	line-height: 1em;
 	text-align: left;
 	box-sizing: border-box;
+=======
+	width: 100%;
+	background-color: #161b16;
+>>>>>>> e71167c0866f934d3b31ce748bcfae6a980a567b
 }
 .main-navigation ul {
 	display: none;
