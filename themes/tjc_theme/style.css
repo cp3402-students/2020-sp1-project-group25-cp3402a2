@@ -630,9 +630,17 @@ a:active {
 --------------------------------------------------------------*/
 .main-navigation {
 	display: block;
-	width: 100%;
+	background-color: #161b16;
+	position: fixed;
+	width: 260px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	line-height: 1em;
+	text-align: left;
+	box-sizing: border-box;
 }
-
 .main-navigation ul {
 	display: none;
 	list-style: none;
