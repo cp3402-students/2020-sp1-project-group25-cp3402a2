@@ -641,9 +641,8 @@ a:active {
 	background-color: #161b16;
 	float: right;
 	color: white;
-	padding-left: 2000px;
-	padding-right: 20px;
->>>>>>> e71167c0866f934d3b31ce748bcfae6a980a567b
+	padding-left: 100%;
+
 }
 .main-navigation ul {
 	display: none;
