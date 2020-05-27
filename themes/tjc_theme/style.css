@@ -78,8 +78,8 @@ main {
 	background-color: #2e2d2d;
 	color: #fafaf2;
 	font-family: 'Quicksand', sans-serif;
-/* 	padding-left:450px;
-	padding-right: 450px; */
+	padding-left: 25%;
+	padding-right: 30%;
 }
 
 /**
@@ -645,7 +645,7 @@ a:active {
 	color: white;
 	padding-left: 2000px;
 	padding-right: 20px;
->>>>>>> e71167c0866f934d3b31ce748bcfae6a980a567b
+
 }
 .main-navigation ul {
 	display: none;
