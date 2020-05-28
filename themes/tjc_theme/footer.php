@@ -15,9 +15,8 @@
         <div class="site-info">
             <?php
             /* translators: %s: CMS name, i.e. WordPress. */
-            printf(esc_html__('Site for the Townsville Jazz Club, by group 25'));
+            printf(esc_html__('(c) Townsville Jazz Club.'));
             ?>
-            <span class="sep"> | </span>
         </div><!-- .site-info -->
     </footer><!-- #colophon -->
 
