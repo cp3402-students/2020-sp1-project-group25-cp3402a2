@@ -71,13 +71,18 @@ body {
 	color: #F0F0DF;
 }
 
+element.style {
+	background-color: black;
+	color: white;
+}
+
 /**
  * Render the `main` element consistently in IE.
  */
 main {
 	display: block;
-	background-color: #2e2d2d;
-	color: #fafaf2;
+	background-color: #19191e;
+	color: #e6e6c5;
 	font-family: 'Quicksand', sans-serif;
 	padding-left: 30%;
 	padding-right: 30%;
@@ -90,7 +95,10 @@ main {
 h1 {
 	font-size: 2em;
 	margin: 0.67em 0;
+	color: #f0ba1a;
 }
+
+
 
 /* Grouping content
 	 ========================================================================== */
@@ -634,6 +642,11 @@ a:active {
 	outline: 0;
 }
 
+#site-navigation.main-navigation {
+	background-color: #021017;
+}
+
+
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
@@ -870,6 +883,12 @@ a:active {
 /* Re-display the Theme Footer when Infinite Scroll has reached its end. */
 .infinity-end.neverending .site-footer {
 	display: block;
+}
+
+#colophon {
+	background-color: black;
+	color: white;
+	height: 100%;
 }
 
 /*--------------------------------------------------------------
