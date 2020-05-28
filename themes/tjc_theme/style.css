@@ -647,16 +647,17 @@ a:active {
 }
 
 
+
+
+
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
 .main-navigation {
 	display: block;
 	background-color: #161b16;
-	float: right;
+	float: left;
 	color: white;
-	padding-left: 100%;
-
 }
 .main-navigation ul {
 	display: none;
@@ -684,19 +685,19 @@ a:active {
 .main-navigation ul ul li.focus > ul {
 	display: block;
 	left: auto;
+	background-color:red;
 }
 
 .main-navigation ul ul a {
 	width: 200px;
 }
 
-.main-navigation ul li:hover > ul {
-	background: gold;
-}
-.main-navigation ul li.focus > ul {
-	left: auto;
 
+.main-navigation ul li:hover > ul {
+	background: green;
+	left: auto;
 }
+
 
 .main-navigation li {
 	position: relative;
