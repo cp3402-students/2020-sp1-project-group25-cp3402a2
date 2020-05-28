@@ -84,8 +84,8 @@ main {
 	background-color: #19191e;
 	color: #e6e6c5;
 	font-family: 'Quicksand', sans-serif;
-	padding-left: 30%;
-	padding-right: 30%;
+	padding-left: 20%;
+	padding-right: 20%;
 }
 
 /**
@@ -643,7 +643,7 @@ a:active {
 }
 
 #site-navigation.main-navigation {
-	background-color: #021017;
+	background-color: #030305;
 }
 
 
@@ -655,16 +655,17 @@ a:active {
 --------------------------------------------------------------*/
 .main-navigation {
 	display: block;
-	background-color: #161b16;
+	background-color: #030305;
 	float: left;
 	color: white;
+	width:100%;
 }
 .main-navigation ul {
 	display: none;
 	list-style: none;
 	margin: 0;
-	padding-right: 50px;
-	padding-left: 50px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .main-navigation ul ul {
@@ -681,20 +682,18 @@ a:active {
 	top: 0;
 }
 
-.main-navigation ul ul li:hover > ul,
-.main-navigation ul ul li.focus > ul {
-	display: block;
-	left: auto;
-	background-color:red;
+.main-navigation ul ul a {
+	width: 100%;
 }
 
-.main-navigation ul ul a {
-	width: 200px;
+.main-navigation ul ul li {
+	width: 100px;
 }
+
 
 
 .main-navigation ul li:hover > ul {
-	background: green;
+	background: #0E0E10;
 	left: auto;
 }
 
