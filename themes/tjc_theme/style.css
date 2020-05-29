@@ -75,8 +75,9 @@ element.style {
  */
 main {
 	display: block;
-	background-color: #19191e;
-	color: #e6e6c5;
+	/* 	background-color: #19191e; */
+	background: repeating-linear-gradient( -45deg, #19191e 4px, #202025 5px, #19191e 6px, #19191e 11px, #202025 12px);
+	color: #ededd5;
 	font-family: 'Quicksand', sans-serif;
 	padding-left: 20%;
 	padding-right: 20%;
