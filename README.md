@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CP3402 - TJC Theme
 <h1>Welcome to the Team</h1>
 <p>
