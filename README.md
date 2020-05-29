@@ -12,9 +12,9 @@ This theme is used for Group 25's submission of CP3402 Assessment 2. The theme w
 
 <h2>Plugins: An Overview</h2>
 <h3>MetaSlider</h3>
-<p></p>
+<p>MetaSlider is a plugin used to create slideshows in WordPress. Go to the MetaSlider Tab in the Admin Dashboard to access it's panel. Once a slider is created it cn be added using the MetaSlider block in the Gutenberg Editor or by adding the shortcode in the Classic Editor.</p>
 <h3>WP Google Maps</h3>
-<p></p>
+<p>WP Google Maps is a plugin used to create interactive maps. Go to the Maps tab in the dashboard to create and edit maps. Once a map is created it can be implemented into a page using the Maps block in the Gutenberg Editor or by copying the shortcode using the Classic Editor.</p>
 
 <h2>How to add Content</h2>
 <p>All of our content is created using WordPress pages. Once a page has been added make sure that you add it to a menu. All of the pages on currently on the site were made with the Gutenberg Editor</p>
