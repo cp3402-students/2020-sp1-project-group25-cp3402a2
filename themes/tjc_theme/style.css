@@ -1,9 +1,9 @@
 /*!
 Theme Name: tjc_theme
-Theme URI: http://underscores.me/
-Author: Underscores.me
-Author URI: http://underscores.me/
-Description: Description
+Theme URI: https://github.com/cp3402-students/2020-sp1-project-group25-cp3402a2
+Author: Group 25 (Chris La Spina, Timothy Cameron, Jascha Coetser, Kyle Dinnison, James Kastner)
+Author URI: https://github.com/cp3402-students/2020-sp1-project-group25-cp3402a2
+Description: Example Theme for Townsville Jazz Club
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
@@ -16,8 +16,6 @@ Use it to make something cool, have fun, and share what you've learned.
 tjc_theme is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 */
 
 /*--------------------------------------------------------------
@@ -30,6 +28,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Navigation
 	## Links
 	## Menus
+	## Sub Menu
 # Accessibility
 # Alignments
 # Widgets
@@ -45,11 +44,6 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
-
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-
-/* Document
-	 ========================================================================== */
 
 /**
  * 1. Correct the line height in all browsers.
@@ -84,8 +78,8 @@ main {
 	background-color: #19191e;
 	color: #e6e6c5;
 	font-family: 'Quicksand', sans-serif;
-	padding-left: 30%;
-	padding-right: 30%;
+	padding-left: 20%;
+	padding-right: 20%;
 }
 
 /**
@@ -95,7 +89,6 @@ main {
 h1 {
 	font-size: 2em;
 	margin: 0.67em 0;
-	color: #f0ba1a;
 }
 
 
@@ -399,6 +392,7 @@ h4,
 h5,
 h6 {
 	clear: both;
+	color: #f0ba1a;
 }
 
 p {
@@ -643,7 +637,7 @@ a:active {
 }
 
 #site-navigation.main-navigation {
-	background-color: #021017;
+	background-color: #030305;
 }
 
 
@@ -655,16 +649,21 @@ a:active {
 --------------------------------------------------------------*/
 .main-navigation {
 	display: block;
-	background-color: #161b16;
+	background-color: #030305;
 	float: left;
 	color: white;
+	width:100%;
+	font-size: 1em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
 }
 .main-navigation ul {
 	display: none;
 	list-style: none;
 	margin: 0;
-	padding-right: 50px;
-	padding-left: 50px;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .main-navigation ul ul {
@@ -674,6 +673,10 @@ a:active {
 	top: 100%;
 	left: -999em;
 	z-index: 99999;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding-right: 12px;
 }
 
 .main-navigation ul ul ul {
@@ -681,20 +684,18 @@ a:active {
 	top: 0;
 }
 
-.main-navigation ul ul li:hover > ul,
-.main-navigation ul ul li.focus > ul {
-	display: block;
-	left: auto;
-	background-color:red;
+.main-navigation ul ul a {
+	width: 100%;
 }
 
-.main-navigation ul ul a {
-	width: 200px;
+.main-navigation ul ul li {
+	width: 100px;
 }
+
 
 
 .main-navigation ul li:hover > ul {
-	background: green;
+	background: #0E0E10;
 	left: auto;
 }
 
@@ -842,7 +843,7 @@ a:active {
 
 .post,
 .page {
-	margin: 0 0 1.5em;
+	margin: 0 0 0;
 }
 
 .updated:not(.published) {
@@ -887,8 +888,11 @@ a:active {
 }
 
 #colophon {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 35px;
 	background-color: black;
-	color: white;
+	color: #e6e6c5;
 	height: 100%;
 }
 
@@ -916,6 +920,8 @@ object {
 	display: inline-block;
 }
 
+
+/* Tim Was here */
 /*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/
