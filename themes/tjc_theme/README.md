@@ -1,49 +1,56 @@
-[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
+# CP3402 - TJC Theme
+<h1>Welcome to the Team</h1>
+<p>
+This theme is used for Group 25's submission of CP3402 Assessment 2. The theme was created with Underscores.
+</p>
+<h4>Theme Details</h4>
+<p><strong>Name</strong>: tjc_theme<br>
+<strong>Theme URI</strong>: https://github.com/cp3402-students/2020-sp1-project-group25-cp3402a2<br>
+<strong>Author</strong>: Group 25<br>
+<strong>Author URI</strong>: https://github.com/cp3402-students/2020-sp1-project-group25-cp3402a2</p>
 
-_s
-===
+<h2>Plugins: An Overview</h2>
+<h3>MetaSlider</h3>
+<p>MetaSlider is a plugin used to create slideshows in WordPress. Go to the MetaSlider Tab in the Admin Dashboard to access it's panel. Once a slider is created it cn be added using the MetaSlider block in the Gutenberg Editor or by adding the shortcode in the Classic Editor.</p>
+<h3>WP Google Maps</h3>
+<p>WP Google Maps is a plugin used to create interactive maps. Go to the Maps tab in the dashboard to create and edit maps. Once a map is created it can be implemented into a page using the Maps block in the Gutenberg Editor or by copying the shortcode using the Classic Editor.</p>
 
-Hi. I'm a starter theme called `_s`, or `underscores`, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+<h2>How to add Content</h2>
+<p>All of our content is created using WordPress pages. Once a page has been added make sure that you add it to a menu. All of the pages on currently on the site were made with the Gutenberg Editor</p>
 
-My ultra-minimal CSS might make me look like theme tartare but that means less stuff to get in your way when you're designing your awesome theme. Here are some of the other more interesting things you'll find here:
+<h2> Setting up local enviroment </h2>
+<p>1) Install development dependencies (git, Virtual Box, wpdistillery, vagrant & scotchbox).
+You can install a <a href="https://github.com/lindsaymarkward/WPDistillery">custom version of wpdistillery</a> that will also install vagrant & scotchbox for you.<br>
+<a href="https://linuxize.com/post/how-to-install-virtualbox-on-ubuntu-18-04/">Documentation to install VirtualBox</a><br>
+<code>apt install git</code><br>
+<code>git clone 'https://github.com/lindsaymarkward/WPDistillery.git'</code><br>
+2) <code>cd</code> into the wpdistillery file and run <code>vagrant up</code>.<br>
+3) Make a cup of tea and wait for it to install
+</p>
 
-* A just right amount of lean, well-commented, modern, HTML5 templates.
-* A helpful 404 template.
-* A custom header implementation in `inc/custom-header.php` just add the code snippet found in the comments of `inc/custom-header.php` to your `header.php` template.
-* Custom template tags in `inc/template-tags.php` that keep your templates clean and neat and prevent code duplication.
-* Some small tweaks in `inc/template-functions.php` that can improve your theming experience.
-* A script at `js/navigation.js` that makes your menu a toggled dropdown on small screens (like your phone), ready for CSS artistry. It's enqueued in `functions.php`.
-* 2 sample layouts in `sass/layout/` made using CSS Grid Layout Module for a sidebar on either side of your content.
-Note: `.no-sidebar` styles are not automatically loaded.
-* Smartly organized starter CSS in `style.css` that will help you to quickly get your design off the ground.
-* Full support for `WooCommerce plugin` integration with hooks in `inc/woocommerce.php`, styling override woocommerce.css with product gallery features (zoom, swipe, lightbox) enabled.
-* Licensed under GPLv2 or later. :) Use it to make something cool.
+<h2>How to Update the Staging Site</h2>
+<p>This GitHub repository includes a webhook that will automatically perform a pull when the remote repository is updated. Simply commit and push your work and the site should update.</p>
 
-Getting Started
----------------
+<h2>GitHub Best Practices</h2>
+Due to the number of developers working on the site it is important to maintain good version control practies. Please enter the below commands in order when committing and pushing from the command line. Make sure to run <code>git pull --rebase</code> before running <code>git push</code>.
 
-If you want to keep it simple, head over to https://underscores.me and generate your `_s` based theme from there. You just input the name of the theme you want to create, click the "Generate" button, and you get your ready-to-awesomize starter theme.
 
-If you want to set things up manually, download `_s` from GitHub. The first thing you want to do is copy the `_s` directory and change the name to something else (like, say, `megatherium-is-awesome`), and then you'll need to do a six-step find and replace on the name in all the templates.
+<h2>Troubleshooting the WebHook</h2>
+<p>If the site does not update there may be a problem with the webhook.</p>
+<p>Check the Recent Deliveries section (Settings>WebHooks>http://157.245.163.169/wp-content/hook_log.txt) and check that the posts are being delivered.</p>
+<p>Next check the <a href="http://157.245.163.169/wp-content/hook_log.txt">hook log file</a> and scroll down to the most recent pull attempt. If you only see <code>updating *bunch of characters*</code> and no log of the files that were changed something has gone wrong in the pull. You'll need to log into the server using SSH and try to pull manually to see what the problem is.</p>
 
-1. Search for `'_s'` (inside single quotations) to capture the text domain.
-2. Search for `_s_` to capture all the function names.
-3. Search for `Text Domain: _s` in `style.css`.
-4. Search for <code>&nbsp;_s</code> (with a space before it) to capture DocBlocks.
-5. Search for `_s-` to capture prefixed handles.
-6. Search for `_S_` (in uppercase) to capture constants.
+<h2> Creating/Joining our live with SSH </h2>
+<p>
+#Note: All commands just be run on a UNIX command line (we use Git Bash).<br>
+1) Create an SSH key by running <code>ssh-keygen</code> in command line. DO NOT FORGET YOUR PASSPHRASE!!!<br>
+2) Copy the output of <code>cat ~/.ssh/id_rsa.pub</code><br>
+3) Get your parents to log into the server for you using SSH.<br> 
+4) Get your parents to run <code>nano ~/.ssh/authorized_keys</code> and copy the output of Step 2 into the file.<br>
+5) After this, you should be able to access the server with <code>ssh root@ip_address</code>. Check the Group 25 Slack to find the IP addresses of the Staging and Production Server.
+</p> 
 
-OR
-
-1. Search for: `'_s'` and replace with: `'megatherium-is-awesome'`.
-2. Search for: `_s_` and replace with: `megatherium_is_awesome_`.
-3. Search for: `Text Domain: _s` and replace with: `Text Domain: megatherium-is-awesome` in `style.css`.
-4. Search for: <code>&nbsp;_s</code> and replace with: <code>&nbsp;Megatherium_is_Awesome</code>.
-5. Search for: `_s-` and replace with: `megatherium-is-awesome-`.
-6. Search for: `_S_` and replace with: `MEGATHERIUM_IS_AWESOME_`.
-
-Then, update the stylesheet header in `style.css`, the links in `footer.php` with your own information and rename `_s.pot` from `languages` folder to use the theme's slug. Next, update or delete this readme.
-
-Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
-
-Good luck!
+<h2>Wordmove: How to Move files to Live</h2>
+<p>This server's we use transfer files using a Ruby script called Wordmove.<br>
+1) Log into the Live server using SSH<br>
+2) run <code>cd /var/www/html</code> and then <code>wordmove pull</code> with the appropriate options.</p>
