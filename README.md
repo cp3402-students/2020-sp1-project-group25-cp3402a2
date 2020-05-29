@@ -1,6 +1,7 @@
 # CP3402
 This is group 25's github for assignment 2. <br>
 <br>
+
 <h2> Setting up local enviroment </h2><br>
 1) install git <br>
 2) Install VirtualBox & Vagrant <br>
@@ -14,7 +15,7 @@ This is group 25's github for assignment 2. <br>
 10) testfile.vm <br>
 11) testfile.vm/wp-admin (username and pass: admin) <br>
 12) vagrant halt <br>
-<br>
+
 <h2> How to commit </h2><br>
 1) cd "save location" <br> 
 2) git clone "name" <br>
@@ -24,7 +25,7 @@ This is group 25's github for assignment 2. <br>
 6) git commit -m "commit title" <br>
 7) git status <br>
 8) git push <br>
-<br>
+
 <h2> Creating/Joining our live with SSH </h2><br>
 1) ssh-keygen <br>
 2) enter a password <br>
@@ -32,5 +33,43 @@ This is group 25's github for assignment 2. <br>
 4) cat ~/.ssh/id_rsa.pub <br>
 5) copy large wall of text <br> 
 6) email text to james <br>
-<br> 
 
+<h2>How to become an admin of the server</h2><br>
+1) <br>
+2) <br>
+3) <br>
+4) <br>
+5) <br>
+6) <br>
+
+<h2>Installing a plugin</h2><br>
+1) <br>
+2) <br>
+3) <br>
+4) <br>
+5) <br>
+6) <br>
+
+<h2>Uploading to live site</h2><br>
+1) <br>
+2) <br>
+3) <br>
+4) <br>
+5) <br>
+6) <br>
+
+<h2>How to create a new slide-show</h2><br>
+1) <br>
+2) <br>
+3) <br>
+4) <br>
+5) <br>
+6) <br>
+
+<h2>Changing google map markers</h2><br>
+1) <br>
+2) <br>
+3) <br>
+4) <br>
+5) <br>
+6) <br>

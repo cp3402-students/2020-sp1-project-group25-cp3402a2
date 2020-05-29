@@ -15,12 +15,7 @@
         <div class="site-info">
             <?php
             /* translators: %s: CMS name, i.e. WordPress. */
-            printf(esc_html__('Footer 1'));
-            ?>
-            <span class="sep"> | </span>
-            <?php
-            /* translators: 1: Theme name, 2: Theme author. */
-            printf(esc_html__('Footer 2'));
+            printf(esc_html__('(c) Townsville Jazz Club.'));
             ?>
         </div><!-- .site-info -->
     </footer><!-- #colophon -->
